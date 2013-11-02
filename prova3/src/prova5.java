@@ -18,8 +18,7 @@ import org.lustin.trac.xmlprc.Ticket;
 import org.lustin.trac.xmlprc.Ticket.Milestone;
 import org.lustin.trac.xmlprc.TrackerDynamicProxy;
 import org.lustin.trac.xmlprc.Wiki;
-import org.python.core.PyInteger;
-import org.python.util.PythonInterpreter;
+
 import org.apache.xmlrpc.client.XmlRpcClient;
 import org.apache.xmlrpc.server.XmlRpcServer;
 import org.apache.xmlrpc.server.XmlRpcServerConfigImpl;
@@ -62,8 +61,7 @@ public class prova5 {
 				//p.get(0).
 			
 		
-		//System.out.println(theVector.get(0).toString())	;	
-		 PythonInterpreter interp = new PythonInterpreter();
+		//System.out.println(theVector.get(0).toString())	;
 		// interp.exec("import xmlrpclib");
 		 //interp.exec("server = xmlrpclib.ServerProxy(\"http://luca92:16071950@127.0.0.1:8081/myproject/login/xmlrpc\")");
 		 //interp.exec("print server.wiki.getPage(\"WikiStart\")");
